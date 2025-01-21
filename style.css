@@ -1,0 +1,42 @@
+body {
+    background: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+}
+
+.container {
+    background: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.image_qr {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    margin: 15px 15px 0px 15px;
+}
+
+footer{
+    font-family: Outfit;
+    margin: 15px;
+    text-align: center;
+}
+footer p:nth-child(1) {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+footer p:nth-child(2) {
+    padding: 5px;
+    font-size: 12px;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+}
